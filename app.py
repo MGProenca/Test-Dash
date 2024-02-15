@@ -3,6 +3,7 @@ from dash import dcc
 from dash import html
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(children=[
     html.H1("My Dashboard"),
